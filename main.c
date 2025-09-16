@@ -52,8 +52,6 @@ int main()
  int x=0;
  while(x!=5){
  x = maths[x](a,b,&sum);
-//   int (*func_ptr_int)(int,int,int*) = &function_add;
-// (*func_ptr_int)(a,b,&sum);
  printf("Sum is %d\n",sum);
  }
   return 0;
